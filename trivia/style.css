@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.trivia-container {
+    
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    background-image: url("Preguntados_logo_nuevo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #457d97;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.opcion {
+    margin: 5px 0;
+    width: 100%;
+}
